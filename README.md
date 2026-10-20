@@ -1,13 +1,23 @@
 # Homework 6 (course MNXB11)
-
-## Answers
+Everything for Homework 6
+## Answers to questions
 
 ### What does header guards prevent and how does `#pragma once` and `#ifndef #define #endif` differ?
 
-### 1.3.1. (0.05 points) Explain the difference between the default access rules of struct and class.
-### 1.3.2. (0.05 points) Why do we need our class to be derived from the TObject?
-### 1.3.3. (0.20 points) Implement the class interface and verify that the class compiles without errors.
+### 1. (0.05 points) Explain the difference between the default access rules of struct and class.
+The main difference is the default access level:
+- In `struct`, all members are `public` by default while in `class` all members are `private` by default.
 
+### 2. (0.05 points) Why do we need our class to be derived from the TObject?
+    This allows the class to use ROOT's object infrastructure "automatically".
+
+
+### 3. (0.20 points) Implement the class interface and verify that the class compiles without errors.
+    I did this :) 
+
+### 4. (0.10 points) Add the three velocity components to your class and initialize them correctly
+    I did this too :) 
+    
 ### 5. Speed Answers
 | Example | vx (m/s) | vy (m/s) | vz (m/s) | Speed | Horizontal Speed |
 |---------|----------|----------|----------|-------|------------------|

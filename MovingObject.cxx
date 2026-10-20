@@ -41,9 +41,9 @@
    }
 
    Double_t MovingObject::Speed() const {
-    return 0.0;
+    return std::sqrt(fVx*fVx + fVy*fVy + fVz*fVz);
    }
 
    Double_t MovingObject::HorizontalSpeed() const {
-    return 0.0;
+    return std::sqrt(fVx*fVx + fVy*fVy);
    }

@@ -6,7 +6,7 @@
 #include <TRandom3.h>
 #include <iostream>
 #include <TF1.h>
-#include <iostream>
+
 
 
 void write();

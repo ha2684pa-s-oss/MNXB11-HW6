@@ -1,8 +1,9 @@
 #ifndef MOVINGOBJECT_H
 #define MOVINGOBJECT_H
 
+#include <TObject.h>
 
-namespace hw6 {
+
     class MovingObject : public TObject {
         public:
             MovingObject();
@@ -17,7 +18,7 @@ namespace hw6 {
             Double_t Speed() const;
             Double_t HorizontalSpeed() const;
 
-            void setVelocity(Double_t vx, Double_t vy, Double_t vz);
+            void SetVelocity(Double_t vx, Double_t vy, Double_t vz);
 
         private:
             Double_t fVx;
@@ -30,7 +31,6 @@ namespace hw6 {
 
 
 
-} // namespace hw6
 
 
 

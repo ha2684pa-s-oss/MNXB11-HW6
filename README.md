@@ -14,7 +14,10 @@ I also wasn't entire sure which plots should be included in the submission since
 
 ## Answers to questions
 
-### What does header guards prevent and how does `#pragma once` and `#ifndef #define #endif` differ?
+### 0. What does header guards prevent and how does `#pragma once` and `#ifndef #define #endif` differ?
+Header guards prevent the header file from being included multiple times during a compilation.
+- `#ifndef` etc. use a macro to ensure content is only processed once
+- `#pragma once` is simpler but not formally part of the C++ standard.
 
 ### 1. (0.05 points) Explain the difference between the default access rules of struct and class.
 The main difference is the default access level:
